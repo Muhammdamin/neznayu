@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.container1{
+    margin: 0 auto;
+    max-width: 1220px;
+}
+.container2{
+    margin: 0 auto;
+    max-width: 1220px;
+}
+header{
+    padding: 27px 0;
+    background-color: #f3d7b7;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+    color: black;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+header  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding-bottom: 40px;
+    margin-bottom: 8px;
+}
+.dadcards{
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box{
+    gap: 150px;
+    width: 850px;
+    /* background-color: aqua; */
+    height: 175px;
+    display: flex;
+    margin-left: 170px;
+    padding-left: 18px;
+}
+.dadcards div h3{
+    padding-bottom: 14px;
+    font-size: 16px;
+    color: black;
+}
+.sm-box{
+    padding-top: 35px;
+}
+ h3{
+    font-size: 32px;
+    color: gray;
+}
+.h21{
+    text-align: center;
+    padding-bottom: 12px;
+}
+.h{
+    font-size: 48px;
+    color: gray;
+}
+.simply {
+    padding: 60px 0;
+    background-color: #F3d7b7;
+    height: 600px;
+}
+
+.simply .container {
+    display: flex;
+    gap: 250px;
+
+
+}
+
+.simply-text {
+    max-width: 464px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.simply-text p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin: 25px 0;
+    margin-top: 47px;
+
+}
+.btn {
+    padding: 16px 24px;
+    background-color: #0a775f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 47px;
+}
+.katta-img {
+    max-width: 610px;
+    padding-bottom: 65px;
+}
+
+.simply-img {
+    position: relative;
+}
+.kichik-img {
+    position: absolute;
+    top: -85px;
+    left: -85px;
+}
+footer{
+    background-color: #F3d7b7;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    gap: 40px;
+    display: flex;
+    padding-left: 40px;
+}
+.icons{
+    gap: 40px;
+    display: flex;
+}
+.container2{
+    margin-right: 0 auto;
+    max-width: 1220px;
+}
+footer .container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dadcards img:hover{
+    transform: scale(1.8);
+    transition: 2s;
+}
+footer .container2{
+    gap: 120px;
+    height: 120px;
+}
+i{
+    font-size: 32px;
+}
+.p2{
+    padding-top: 20px;
+}
+.dad2{
+    display: flex;
+    gap: 230px;
+    padding-top: 65px;
+    align-items: center;
+}
+.smdad-3 h2{
+    font-size: 28px;
+    color: white;
+    padding-top: 65px;
+    padding-bottom: 24px;
+}
+.dad3{
+    background-color: #F3d7b7;
+    margin-top: 55px;
+}
+.smdad-3 p{
+    color: white;
+}
+.dad3 .container{
+    display: flex;
+    align-items: center;
+}
+.img-s img{
+   margin-top: -90px;
+   padding-left: 80px ;
+}
+.text1{
+    font-size: 18px;
+    color: black;
+    font-family: Roboto;
+}
